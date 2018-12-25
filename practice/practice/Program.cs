@@ -14,7 +14,7 @@ namespace practice
 			Console.WriteLine("Hello world");
 			Console.Write("number 1: ");
 			num1 = Convert.ToInt32(Console.ReadLine());
-			Console.Write("number2: ");
+			Console.Writes("number2: ");
 			num2= Convert.ToInt32(Console.ReadLine());
 			sum = num1 + num2;
 			Console.Write("result:" + sum);
